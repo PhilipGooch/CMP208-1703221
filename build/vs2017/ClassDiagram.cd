@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAACAAAAAIAAAAAAAAAAIQAAEQAAAAAAIAAAA=</HashCode>
+      <FileName>M:\Abertay\System Architecture\Coursework\game_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrimitiveBuilder" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAAABAABIBAAAAIAAABgQAAASAEhCABA=</HashCode>
+      <FileName>M:\Abertay\System Architecture\Coursework\primitive_builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneApp">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="fps_" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAQCAAkACAAAAAAAAAAAACAAAAAAAAAAhBACCEAAAAA=</HashCode>
+      <FileName>M:\Abertay\System Architecture\Coursework\scene_app.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bike" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8zCO2ATqERQ/EBqjaIiGNV9D9nIUqbx3QojKU1aBrcA=</HashCode>
+      <FileName>bike.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bar">
+    <Position X="2" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>bar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrashState" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACECAAAAAAAAAAAACAAAAAAAAAAAAAFACABAAAAA=</HashCode>
+      <FileName>crash_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionsState" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAAAAAAQAABgAAAAAAAACgAAAgAFBCABAAAAA=</HashCode>
+      <FileName>options_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skeleton">
+    <Position X="4.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>skeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQFEACACAAAEARQAwIQFgABAAEhYQKQABACQBJAMAA=</HashCode>
+      <FileName>game_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuState" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yAQBAICAAkAAAICEAgwAgCAAAAoAFAAAAhBDABAAAAA=</HashCode>
+      <FileName>menu_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~State" Hidden="true" />
+      <Field Name="audio_manager_" Hidden="true" />
+      <Method Name="DrawHUD" Hidden="true" />
+      <Field Name="input_manager_" Hidden="true" />
+      <Method Name="KeyDown" Hidden="true" />
+      <Field Name="platform_" Hidden="true" />
+      <Field Name="sfx_id_" Hidden="true" />
+      <Field Name="sprite_renderer_" Hidden="true" />
+      <Method Name="State" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="State::STATE_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>state.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QCQCAQiAACAAgAAAAAAAAAAAAAAAAAEAABACDBgAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateHandler">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="~StateHandler" Hidden="true" />
+      <Field Name="audio_manager_" Hidden="true" />
+      <Method Name="GetLevel" Hidden="true" />
+      <Field Name="input_manager_" Hidden="true" />
+      <Field Name="level_" Hidden="true" />
+      <Field Name="platform_" Hidden="true" />
+      <Method Name="SetLevel" Hidden="true" />
+      <Field Name="sfx_id_" Hidden="true" />
+      <Field Name="sprite_renderer_" Hidden="true" />
+      <Method Name="StateHandler" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACBUgAAAEAgEAAAAEQAAAFAAEAAAAEAAACCBgAAAA=</HashCode>
+      <FileName>state_handler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Track">
+    <Position X="6.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>track.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wheel">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAACAAAAAAA=</HashCode>
+      <FileName>wheel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinState" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAAAAAAAAEAAAAAAAAAAEAAAAACFACABAAAAA=</HashCode>
+      <FileName>win_state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Mesh" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAAAAEAACAAAAAAhQACAAAgAEBAASAAAKhACgA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\graphics\mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Platform" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQikGACAMhQALQsYwSRGAABHAgFAEYADQeEMBFCYAI=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\system\platform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::SpriteRenderer" Collapsed="true">
+    <Position X="15.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAgIAEAAAAAAAAiAAAAAAAAAEEAABAQAAAggIAA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\graphics\sprite_renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Font" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAAQAAAABAABCAAAAAAAAAAAAAAAAAAAAgiAAE=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\graphics\font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::InputManager" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAIAAAAAAAACAAAAAAAAAABCEEAAAAAIAAAAAA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\input\input_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::AudioManager" Collapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEAAgAFAAgEFAAQAUAAAIAAEASAgEAAAGAAAA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\audio\audio_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Texture" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAAAAAAAAAAEAAEAAAAIEAAAAAAA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\graphics\texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Scene" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIgQAAAEAAABIAAAABAAAIQEICNAACAAAABAlAAAA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\graphics\scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gef::Renderer3D" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIBAixKIAAJAAEQAggoKAAAAACSEEQAFAUQgEkygIA=</HashCode>
+      <FileName>m:\Abertay\System Architecture\gef_abertay\graphics\renderer_3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OBJECT_TYPE" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAQAAAAAAAAgABAAgAQAAAAEgAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>M:\Abertay\System Architecture\Coursework\game_object.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
